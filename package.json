@@ -1,0 +1,14 @@
+{
+  "name": "ceramic-shop",
+  "version": "1.0.0",
+  "description": "A shop for selling ceramic products",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch style.scss:style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
