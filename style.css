@@ -4,12 +4,14 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Fira Sans";
+  height: 100%;
 }
 
 header {
   background-color: #025048;
   padding: 10px 70px;
   display: grid;
+  position: relative;
   grid-template-columns: 3fr 4fr 2fr;
   color: #fff;
 }
@@ -26,7 +28,7 @@ header .logo text {
   transform: translate(90px, 40px);
   transition: transform 0.3s ease;
 }
-header menu {
+header menu.nav {
   display: inline-block;
   display: grid;
   align-content: center;
@@ -34,24 +36,51 @@ header menu {
   margin: 0;
   font-size: large;
 }
-header menu ul {
+header menu.nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
   padding: 0;
 }
-header menu ul li {
+header menu.nav ul li {
   display: inline-block;
 }
-header menu ul li:hover {
+header menu.nav ul li:hover {
   transform: scale(1.2);
   transition: transform 0.3s ease;
 }
-header menu + svg {
+header svg.cart {
   align-self: center;
   justify-self: end;
 }
-header svg:last-child {
+header menu.dropdown {
+  display: none;
+}
+header menu.dropdown.show {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  color: black;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  border-bottom: 1px solid aliceblue;
+}
+header menu.dropdown.show ul {
+  padding: 0;
+  margin: 0;
+}
+header menu.dropdown.show li {
+  display: block;
+  padding: 10px 30px;
+}
+header menu.dropdown.show li:hover {
+  background-color: white;
+}
+header svg.dropdown-button,
+header svg.close-button {
   display: none;
 }
 
@@ -75,14 +104,17 @@ header svg:last-child {
   header {
     grid-template-columns: 2fr 2fr;
   }
-  header menu {
+  header menu.nav {
     display: none;
   }
-  header menu + svg {
+  header svg.cart {
     display: none;
   }
-  header svg:last-child {
+  header svg.dropdown-button {
     display: block;
+  }
+  header svg.dropdown-button,
+  header svg.close-button {
     align-self: center;
     justify-self: end;
   }

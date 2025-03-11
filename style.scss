@@ -7,12 +7,14 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Fira Sans";
+  height: 100%;
 }
 
 header {
   background-color: #025048;
   padding: 10px 70px;
   display: grid;
+  position: relative;
   grid-template-columns: 3fr 4fr 2fr;
   color: #fff;
   * {
@@ -28,7 +30,7 @@ header {
       transition: transform 0.3s ease;
     }
   }
-  menu {
+  menu.nav {
     display: inline-block;
     display: grid;
     align-content: center;
@@ -48,12 +50,39 @@ header {
         }
       }
     }
-    + svg {
-      align-self: center;
-      justify-self: end;
+  }
+  svg.cart {
+    align-self: center;
+    justify-self: end;
+  }
+  menu.dropdown {
+    display: none;
+  }
+  menu.dropdown.show {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+    ul {
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      display: block;
+      padding: 10px 30px;
+      &:hover {
+        background-color: white;
+      }
     }
   }
-  svg:last-child {
+  svg.dropdown-button,
+  svg.close-button {
     display: none;
   }
 }
@@ -78,14 +107,17 @@ header {
 @media screen and (max-width: $small) {
   header {
     grid-template-columns: 2fr 2fr;
-    menu {
+    menu.nav {
       display: none;
-      + svg {
-        display: none;
-      }
     }
-    svg:last-child {
+    svg.cart {
+      display: none;
+    }
+    svg.dropdown-button {
       display: block;
+    }
+    svg.dropdown-button,
+    svg.close-button {
       align-self: center;
       justify-self: end;
     }
