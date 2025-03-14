@@ -1,6 +1,6 @@
-[
-  {
-    "cars": [
+{
+  "vehicles": {
+    "Cars": [
       {
         "name": "Toyota",
         "origin": "Japan",
@@ -201,6 +201,177 @@
         "popular_models": ["XC90", "S60", "V60"],
         "website": "https://www.volvocars.com"
       }
-    ]
+    ],
+    "EVs": [
+        {
+          "name": "Tesla",
+          "origin": "USA",
+          "founded": 2003,
+          "headquarters": "Palo Alto, California, USA",
+          "popular_models": ["Model 3", "Model S", "Model X", "Model Y"],
+          "website": "https://www.tesla.com"
+        },
+        {
+          "name": "Rivian",
+          "origin": "USA",
+          "founded": 2009,
+          "headquarters": "Irvine, California, USA",
+          "popular_models": ["R1T", "R1S"],
+          "website": "https://www.rivian.com"
+        },
+        {
+          "name": "Lucid Motors",
+          "origin": "USA",
+          "founded": 2007,
+          "headquarters": "Newark, California, USA",
+          "popular_models": ["Lucid Air", "Lucid Gravity"],
+          "website": "https://www.lucidmotors.com"
+        },
+        {
+          "name": "BYD",
+          "origin": "China",
+          "founded": 1995,
+          "headquarters": "Shenzhen, China",
+          "popular_models": ["Han EV", "Tang EV", "Dolphin", "Seal"],
+          "website": "https://www.byd.com"
+        },
+        {
+          "name": "NIO",
+          "origin": "China",
+          "founded": 2014,
+          "headquarters": "Shanghai, China",
+          "popular_models": ["ES8", "ES6", "EC6", "ET7"],
+          "website": "https://www.nio.com"
+        },
+        {
+          "name": "XPeng",
+          "origin": "China",
+          "founded": 2014,
+          "headquarters": "Guangzhou, China",
+          "popular_models": ["P7", "G3", "G9"],
+          "website": "https://www.xiaopeng.com"
+        },
+        {
+          "name": "Li Auto",
+          "origin": "China",
+          "founded": 2015,
+          "headquarters": "Beijing, China",
+          "popular_models": ["Li L9", "Li L8", "Li L7"],
+          "website": "https://www.lixiang.com"
+        },
+        {
+          "name": "Volkswagen ID",
+          "origin": "Germany",
+          "founded": 2019,
+          "headquarters": "Wolfsburg, Germany",
+          "popular_models": ["ID.3", "ID.4", "ID. Buzz"],
+          "website": "https://www.volkswagen.com"
+        },
+        {
+          "name": "BMW i",
+          "origin": "Germany",
+          "founded": 2011,
+          "headquarters": "Munich, Germany",
+          "popular_models": ["i3", "i4", "iX"],
+          "website": "https://www.bmw.com"
+        },
+        {
+          "name": "Mercedes-Benz EQ",
+          "origin": "Germany",
+          "founded": 2016,
+          "headquarters": "Stuttgart, Germany",
+          "popular_models": ["EQS", "EQE", "EQA"],
+          "website": "https://www.mercedes-benz.com"
+        },
+        {
+          "name": "Audi e-tron",
+          "origin": "Germany",
+          "founded": 2018,
+          "headquarters": "Ingolstadt, Germany",
+          "popular_models": ["Q4 e-tron", "e-tron GT"],
+          "website": "https://www.audi.com"
+        },
+        {
+          "name": "Porsche Taycan",
+          "origin": "Germany",
+          "founded": 2019,
+          "headquarters": "Stuttgart, Germany",
+          "popular_models": ["Taycan", "Taycan Cross Turismo"],
+          "website": "https://www.porsche.com"
+        },
+        {
+          "name": "Hyundai Ioniq",
+          "origin": "South Korea",
+          "founded": 2020,
+          "headquarters": "Seoul, South Korea",
+          "popular_models": ["Ioniq 5", "Ioniq 6"],
+          "website": "https://www.hyundai.com"
+        },
+        {
+          "name": "Kia EV",
+          "origin": "South Korea",
+          "founded": 2021,
+          "headquarters": "Seoul, South Korea",
+          "popular_models": ["EV6", "EV9"],
+          "website": "https://www.kia.com"
+        },
+        {
+          "name": "Volvo Recharge",
+          "origin": "Sweden",
+          "founded": 2020,
+          "headquarters": "Gothenburg, Sweden",
+          "popular_models": ["XC40 Recharge", "C40 Recharge"],
+          "website": "https://www.volvocars.com"
+        },
+        {
+          "name": "Polestar",
+          "origin": "Sweden",
+          "founded": 2017,
+          "headquarters": "Gothenburg, Sweden",
+          "popular_models": ["Polestar 2", "Polestar 3"],
+          "website": "https://www.polestar.com"
+        },
+        {
+          "name": "Jaguar I-PACE",
+          "origin": "United Kingdom",
+          "founded": 2018,
+          "headquarters": "Coventry, UK",
+          "popular_models": ["I-PACE"],
+          "website": "https://www.jaguar.com"
+        },
+        {
+          "name": "Ford Mustang Mach-E",
+          "origin": "USA",
+          "founded": 2020,
+          "headquarters": "Dearborn, Michigan, USA",
+          "popular_models": ["Mustang Mach-E", "F-150 Lightning"],
+          "website": "https://www.ford.com"
+        },
+        {
+          "name": "Chevrolet EV",
+          "origin": "USA",
+          "founded": 2016,
+          "headquarters": "Detroit, Michigan, USA",
+          "popular_models": ["Bolt EV", "Silverado EV"],
+          "website": "https://www.chevrolet.com"
+        },
+        {
+          "name": "Honda e",
+          "origin": "Japan",
+          "founded": 2020,
+          "headquarters": "Tokyo, Japan",
+          "popular_models": ["Honda e"],
+          "website": "https://www.honda.com"
+        },
+        {
+          "name": "Nissan Ariya",
+          "origin": "Japan",
+          "founded": 2020,
+          "headquarters": "Yokohama, Japan",
+          "popular_models": ["Ariya", "Leaf"],
+          "website": "https://www.nissan-global.com"
+        }]
+    
+    
   }
-]
+}
