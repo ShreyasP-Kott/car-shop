@@ -1,0 +1,206 @@
+[
+  {
+    "cars": [
+      {
+        "name": "Toyota",
+        "origin": "Japan",
+        "founded": 1937,
+        "headquarters": "Toyota City, Japan",
+        "popular_models": ["Corolla", "Camry", "RAV4"],
+        "website": "https://www.toyota.com"
+      },
+      {
+        "name": "Honda",
+        "origin": "Japan",
+        "founded": 1948,
+        "headquarters": "Tokyo, Japan",
+        "popular_models": ["Civic", "Accord", "CR-V"],
+        "website": "https://www.honda.com"
+      },
+      {
+        "name": "Ford",
+        "origin": "USA",
+        "founded": 1903,
+        "headquarters": "Dearborn, Michigan, USA",
+        "popular_models": ["F-150", "Mustang", "Explorer"],
+        "website": "https://www.ford.com"
+      },
+      {
+        "name": "BMW",
+        "origin": "Germany",
+        "founded": 1916,
+        "headquarters": "Munich, Germany",
+        "popular_models": ["3 Series", "X5", "M4"],
+        "website": "https://www.bmw.com"
+      },
+      {
+        "name": "Tesla",
+        "origin": "USA",
+        "founded": 2003,
+        "headquarters": "Palo Alto, California, USA",
+        "popular_models": ["Model 3", "Model S", "Model X"],
+        "website": "https://www.tesla.com"
+      },
+      {
+        "name": "Mercedes-Benz",
+        "origin": "Germany",
+        "founded": 1926,
+        "headquarters": "Stuttgart, Germany",
+        "popular_models": ["C-Class", "E-Class", "GLE"],
+        "website": "https://www.mercedes-benz.com"
+      },
+      {
+        "name": "Audi",
+        "origin": "Germany",
+        "founded": 1909,
+        "headquarters": "Ingolstadt, Germany",
+        "popular_models": ["A4", "Q5", "R8"],
+        "website": "https://www.audi.com"
+      },
+      {
+        "name": "Chevrolet",
+        "origin": "USA",
+        "founded": 1911,
+        "headquarters": "Detroit, Michigan, USA",
+        "popular_models": ["Silverado", "Camaro", "Tahoe"],
+        "website": "https://www.chevrolet.com"
+      },
+      {
+        "name": "Nissan",
+        "origin": "Japan",
+        "founded": 1933,
+        "headquarters": "Yokohama, Japan",
+        "popular_models": ["Altima", "Rogue", "GT-R"],
+        "website": "https://www.nissan-global.com"
+      },
+      {
+        "name": "Hyundai",
+        "origin": "South Korea",
+        "founded": 1967,
+        "headquarters": "Seoul, South Korea",
+        "popular_models": ["Elantra", "Tucson", "Santa Fe"],
+        "website": "https://www.hyundai.com"
+      },
+      {
+        "name": "Kia",
+        "origin": "South Korea",
+        "founded": 1944,
+        "headquarters": "Seoul, South Korea",
+        "popular_models": ["Sportage", "Sorento", "Telluride"],
+        "website": "https://www.kia.com"
+      },
+      {
+        "name": "Volkswagen",
+        "origin": "Germany",
+        "founded": 1937,
+        "headquarters": "Wolfsburg, Germany",
+        "popular_models": ["Golf", "Passat", "Tiguan"],
+        "website": "https://www.volkswagen.com"
+      },
+      {
+        "name": "Subaru",
+        "origin": "Japan",
+        "founded": 1953,
+        "headquarters": "Tokyo, Japan",
+        "popular_models": ["Impreza", "Outback", "Forester"],
+        "website": "https://www.subaru.com"
+      },
+      {
+        "name": "Lexus",
+        "origin": "Japan",
+        "founded": 1989,
+        "headquarters": "Nagoya, Japan",
+        "popular_models": ["RX", "ES", "GX"],
+        "website": "https://www.lexus.com"
+      },
+      {
+        "name": "Jaguar",
+        "origin": "United Kingdom",
+        "founded": 1922,
+        "headquarters": "Coventry, UK",
+        "popular_models": ["F-Type", "XE", "F-Pace"],
+        "website": "https://www.jaguar.com"
+      },
+      {
+        "name": "Porsche",
+        "origin": "Germany",
+        "founded": 1931,
+        "headquarters": "Stuttgart, Germany",
+        "popular_models": ["911", "Cayenne", "Taycan"],
+        "website": "https://www.porsche.com"
+      },
+      {
+        "name": "Ferrari",
+        "origin": "Italy",
+        "founded": 1939,
+        "headquarters": "Maranello, Italy",
+        "popular_models": ["488 GTB", "F8 Tributo", "SF90 Stradale"],
+        "website": "https://www.ferrari.com"
+      },
+      {
+        "name": "Lamborghini",
+        "origin": "Italy",
+        "founded": 1963,
+        "headquarters": "Sant'Agata Bolognese, Italy",
+        "popular_models": ["Huracan", "Aventador", "Urus"],
+        "website": "https://www.lamborghini.com"
+      },
+      {
+        "name": "Maserati",
+        "origin": "Italy",
+        "founded": 1914,
+        "headquarters": "Modena, Italy",
+        "popular_models": ["Ghibli", "Levante", "Quattroporte"],
+        "website": "https://www.maserati.com"
+      },
+      {
+        "name": "Aston Martin",
+        "origin": "United Kingdom",
+        "founded": 1913,
+        "headquarters": "Gaydon, UK",
+        "popular_models": ["DB11", "Vantage", "DBX"],
+        "website": "https://www.astonmartin.com"
+      },
+      {
+        "name": "Bentley",
+        "origin": "United Kingdom",
+        "founded": 1919,
+        "headquarters": "Crewe, UK",
+        "popular_models": ["Continental GT", "Bentayga", "Flying Spur"],
+        "website": "https://www.bentleymotors.com"
+      },
+      {
+        "name": "Rolls-Royce",
+        "origin": "United Kingdom",
+        "founded": 1906,
+        "headquarters": "Goodwood, UK",
+        "popular_models": ["Phantom", "Ghost", "Cullinan"],
+        "website": "https://www.rolls-roycemotorcars.com"
+      },
+      {
+        "name": "Bugatti",
+        "origin": "France",
+        "founded": 1909,
+        "headquarters": "Molsheim, France",
+        "popular_models": ["Chiron", "Divo", "Bolide"],
+        "website": "https://www.bugatti.com"
+      },
+      {
+        "name": "Land Rover",
+        "origin": "United Kingdom",
+        "founded": 1948,
+        "headquarters": "Coventry, UK",
+        "popular_models": ["Range Rover", "Discovery", "Defender"],
+        "website": "https://www.landrover.com"
+      },
+      {
+        "name": "Volvo",
+        "origin": "Sweden",
+        "founded": 1927,
+        "headquarters": "Gothenburg, Sweden",
+        "popular_models": ["XC90", "S60", "V60"],
+        "website": "https://www.volvocars.com"
+      }
+    ]
+  }
+]

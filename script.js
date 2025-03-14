@@ -1,3 +1,4 @@
+import menuData from "./data/menu.json";
 const dropdownMenu = document.querySelector(".dropdown");
 
 document.querySelector(".dropdown-button").addEventListener("click", (e) => {
@@ -13,6 +14,14 @@ document.addEventListener("click", () => {
     document.querySelector(".dropdown-button").style.display = "block";
     document.querySelector(".close-button").style.display = "none";
   }
+});
+
+document.querySelector(".nav li").addEventListener("mouseover", () => {
+  document.querySelector(".menu-contents").style.display = "grid";
+});
+
+document.querySelector(".nav li").addEventListener("mouseout", () => {
+  document.querySelector(".menu-contents").style.display = "none";
 });
 
 window.addEventListener(

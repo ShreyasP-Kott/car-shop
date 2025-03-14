@@ -11,26 +11,26 @@ body {
 }
 
 header {
-  background-color: #025048;
-  padding: 10px 70px;
+  background-color: #181818;
+  padding: 10px 40px;
   display: grid;
   position: relative;
-  grid-template-columns: 3fr 4fr 2fr;
+  grid-template-columns: 3fr 5fr 2fr;
   color: #fff;
   * {
     cursor: pointer;
   }
   .logo {
-    min-width: 250px;
     height: 80px;
     text {
       transform-box: fill-box;
       transform-origin: center center;
-      transform: translate(90px, 40px);
+      transform: translate(185px, 50px);
       transition: transform 0.3s ease;
     }
   }
   menu.nav {
+    position: relative;
     display: inline-block;
     display: grid;
     align-content: center;
@@ -45,9 +45,32 @@ header {
       li {
         display: inline-block;
         &:hover {
-          transform: scale(1.2);
-          transition: transform 0.3s ease;
+          // // transform: scale(1.2);
+          // // transition: transform 0.3s ease;
+          // background-color: #fff;
+          // color: black;
         }
+        // &:first-child {
+        //   &:hover {
+        //     border-bottom: 1px solid #fff;
+        //   }
+        // }
+      }
+    }
+    .menu-contents {
+      width: 100%;
+      height: 300px;
+      background-color: #181818;
+      color: #fff;
+      position: absolute;
+      top: 90px;
+      left: 0;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 2fr 5fr;
+      // display: none;
+      .menu-content {
+        border-right: 1px solid white;
       }
     }
   }
@@ -59,6 +82,7 @@ header {
     display: none;
   }
   menu.dropdown.show {
+    z-index: 1;
     width: 100%;
     display: block;
     position: absolute;
@@ -89,7 +113,7 @@ header {
 
 footer {
   background-color: #f1f4f1;
-  padding: 10px 70px;
+  padding: 10px 40px;
   display: grid;
   position: relative;
   grid-template-columns: 3fr 4fr 2fr;
@@ -98,12 +122,11 @@ footer {
     cursor: pointer;
   }
   .logo {
-    min-width: 250px;
     height: 80px;
     text {
       transform-box: fill-box;
       transform-origin: center center;
-      transform: translate(90px, 40px);
+      transform: translate(185px, 45px);
       transition: transform 0.3s ease;
     }
   }
@@ -238,11 +261,11 @@ footer {
 @media screen and (max-width: $medium) {
   header {
     padding: 10px 30px;
-    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-columns: 1fr 5fr 1fr;
     .logo {
       min-width: 150px;
       text {
-        transform: translate(0px, 40px);
+        transform: translate(0px, 50px);
       }
     }
     g {
