@@ -1,4 +1,4 @@
-import menuData from "./data/menu.json";
+import menuData from "./data/menu.json" with { type: 'json'}
 const dropdownMenu = document.querySelector(".dropdown");
 
 const createMenuItems = (target) => {
